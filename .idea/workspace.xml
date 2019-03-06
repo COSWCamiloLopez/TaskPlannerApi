@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00060b8d-546f-4171-abcd-3f6280d2ebdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/TaskAPIController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/UserAPIController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryTaskPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryTaskPersistence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryUserPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryUserPersistence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServicesStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServicesStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/UserServicesStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/UserServicesStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/eci/ieti/taskplanner/TaskplannerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/eci/ieti/taskplanner/TaskplannerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskplanner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/taskplanner.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,59 +15,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/UserAPIController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/TaskAPIController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/eci/ieti/taskplanner/TaskplannerApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/Task.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServicesStub.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state relative-caret-position="269">
+              <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1247#1248#0" expanded="true" />
+                <element signature="e#1302#1303#0" expanded="true" />
+                <element signature="e#1348#1349#0" expanded="true" />
+                <element signature="e#1385#1386#0" expanded="true" />
+                <element signature="e#1418#1419#0" expanded="true" />
+                <element signature="e#1470#1471#0" expanded="true" />
+                <element signature="e#1514#1515#0" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1580#1581#0" expanded="true" />
+                <element signature="e#1628#1629#0" expanded="true" />
+                <element signature="e#1668#1669#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -108,12 +110,12 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServicesStub.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryUserPersistence.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryTaskPersistence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/Task.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/eci/ieti/taskplanner/TaskplannerApplicationTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/UserAPIController.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/TaskAPIController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/Task.java" />
       </list>
     </option>
   </component>
@@ -172,43 +174,6 @@
               <item name="taskplanner" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="taskplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskPlannerApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="taskplanner" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taskplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskPlannerApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taskplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskPlannerApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taskplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskPlannerApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taskplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskPlannerApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="taskplanner" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -216,7 +181,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551915553799" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551916093315" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -375,24 +340,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/TaskplannerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/UserAPIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/TaskAPIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -423,22 +394,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/UserAPIController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="269">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/TaskAPIController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="180">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
           </folding>
         </state>
       </provider>
