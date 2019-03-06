@@ -4,9 +4,14 @@ import edu.eci.ieti.taskplanner.Model.Task;
 import edu.eci.ieti.taskplanner.Model.User;
 import edu.eci.ieti.taskplanner.Persistence.TaskPersistence;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ *
+ */
+@Service
 public class TaskServicesStub implements TaskServices {
 
     @Autowired
