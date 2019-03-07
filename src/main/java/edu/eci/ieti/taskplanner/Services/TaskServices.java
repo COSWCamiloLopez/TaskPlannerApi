@@ -37,8 +37,7 @@ public interface TaskServices {
 
     /**
      * @param task
-     * @return
      */
-    Task updateTask(Task task);
+    void updateTask(Task task);
 
 }

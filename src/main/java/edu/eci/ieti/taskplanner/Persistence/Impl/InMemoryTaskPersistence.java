@@ -67,7 +67,12 @@ public class InMemoryTaskPersistence implements TaskPersistence {
     }
 
     @Override
-    public Task updateTask(Task task) {
-        return null;
+    public void updateTask(Task task) {
+        if (tasksList.contains(getTaskById(task.getId()))) {
+            tasksList.remove(getTaskById(task.getId()));
+            tasksList.add(task);
+        } else{
+            System.out.println("This task doesn't exists");
+        }
     }
 }

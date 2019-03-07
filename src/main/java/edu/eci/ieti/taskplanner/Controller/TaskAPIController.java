@@ -53,4 +53,12 @@ public class TaskAPIController {
     public void removeTask(@PathVariable("taskId") String taskId) {
         taskServices.removeTask(taskId);
     }
+
+    /**
+     * @param task
+     */
+    @PutMapping("/update")
+    public void updateTask(@RequestBody Task task) {
+        taskServices.updateTask(task);
+    }
 }

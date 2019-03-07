@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00060b8d-546f-4171-abcd-3f6280d2ebdc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/TaskAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/TaskAPIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/UserAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/UserAPIController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryTaskPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryTaskPersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/TaskPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/TaskPersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServicesStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServicesStub.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/TaskAPIController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+            <state relative-caret-position="440">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#627#628#0" expanded="true" />
@@ -48,21 +49,62 @@
                 <element signature="e#858#859#0" expanded="true" />
                 <element signature="e#1255#1256#0" expanded="true" />
                 <element signature="e#1302#1303#0" expanded="true" />
+                <element signature="e#1418#1419#0" expanded="true" />
+                <element signature="e#1463#1464#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryTaskPersistence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
+                <element signature="e#1705#1706#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryTaskPersistence.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/TaskPersistence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+            <state relative-caret-position="459">
+              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1652#1653#0" expanded="true" />
-                <element signature="e#1705#1706#0" expanded="true" />
-                <element signature="e#1787#1788#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServicesStub.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,9 +130,6 @@
         <option value="$PROJECT_DIR$/src/test/java/edu/eci/ieti/taskplanner/TaskplannerApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/Task.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServices.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServicesStub.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/TaskPersistence.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/TaskplannerApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/UserPersistence.java" />
@@ -98,8 +137,11 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/UserServicesStub.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryUserPersistence.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/UserAPIController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryTaskPersistence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/TaskPersistence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServicesStub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/TaskAPIController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryTaskPersistence.java" />
       </list>
     </option>
   </component>
@@ -193,7 +235,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551932327520" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551935653645" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -257,7 +299,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49893278" visible="true" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49893278" visible="true" weight="0.33909288" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5010672" side_tool="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Messages" weight="0.32937366" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -295,26 +337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/TaskPersistence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Model/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -334,20 +356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServicesStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -434,23 +442,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryTaskPersistence.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/TaskPersistence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+        <state relative-caret-position="459">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1652#1653#0" expanded="true" />
-            <element signature="e#1705#1706#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServicesStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Services/TaskServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Controller/TaskAPIController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+        <state relative-caret-position="440">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#627#628#0" expanded="true" />
@@ -458,6 +487,20 @@
             <element signature="e#858#859#0" expanded="true" />
             <element signature="e#1255#1256#0" expanded="true" />
             <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/ieti/taskplanner/Persistence/Impl/InMemoryTaskPersistence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
           </folding>
         </state>
       </provider>

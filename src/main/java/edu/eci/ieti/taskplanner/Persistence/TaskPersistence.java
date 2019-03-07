@@ -38,7 +38,6 @@ public interface TaskPersistence {
 
     /**
      * @param task
-     * @return
      */
-    Task updateTask(Task task);
+    void updateTask(Task task);
 }
