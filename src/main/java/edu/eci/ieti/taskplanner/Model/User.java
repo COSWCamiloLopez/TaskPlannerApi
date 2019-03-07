@@ -1,5 +1,7 @@
 package edu.eci.ieti.taskplanner.Model;
 
+import java.util.List;
+
 /**
  *
  */
@@ -13,6 +15,23 @@ public class User {
     private Integer phoneNumber;
     private String occupation;
     private String password;
+    private List<Task> tasks;
+
+    public User(Integer identification, String fullFirstName, String fullLastName, String email, String userName) {
+        this.identification = identification;
+        this.fullFirstName = fullFirstName;
+        this.fullLastName = fullLastName;
+        this.email = email;
+        this.userName = userName;
+    }
+
+    public List<Task> getTasks() {
+        return tasks;
+    }
+
+    public void setTasks(List<Task> tasks) {
+        this.tasks = tasks;
+    }
 
     public Integer getIdentification() {
         return identification;

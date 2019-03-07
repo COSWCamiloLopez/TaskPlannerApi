@@ -22,22 +22,22 @@ public class UserServicesStub implements UserServices {
     }
 
     @Override
-    public User getUserById() {
-        return userPersistence.getUserById();
+    public User getUserById(Integer id) {
+        return userPersistence.getUserById(id);
     }
 
     @Override
-    public User createUser() {
-        return userPersistence.createUser();
+    public void createUser(User user) {
+        userPersistence.createUser(user);
     }
 
     @Override
-    public User updateUser() {
-        return userPersistence.updateUser();
+    public void updateUser(User user) {
+        userPersistence.updateUser(user);
     }
 
     @Override
-    public void removeUser() {
-
+    public void removeUser(User user) {
+        userPersistence.removeUser(user);
     }
 }

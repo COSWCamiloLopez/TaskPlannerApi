@@ -12,6 +12,9 @@ import java.util.List;
  */
 @Service
 public class InMemoryTaskPersistence implements TaskPersistence {
+
+    private List<Task> tasksList;
+
     @Override
     public List<Task> geTasksList() {
         return null;

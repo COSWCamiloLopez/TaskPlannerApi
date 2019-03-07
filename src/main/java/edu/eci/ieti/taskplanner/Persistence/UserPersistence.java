@@ -14,20 +14,20 @@ public interface UserPersistence {
     /**
      * @return
      */
-    User getUserById();
-
-    /**
-     * @return
-     */
-    User createUser();
-
-    /**
-     * @return
-     */
-    User updateUser();
+    User getUserById(Integer id);
 
     /**
      *
      */
-    void removeUser();
+    void createUser(User user);
+
+    /**
+     * @param user
+     */
+    void updateUser(User user);
+
+    /**
+     * @param user
+     */
+    void removeUser(User user);
 }

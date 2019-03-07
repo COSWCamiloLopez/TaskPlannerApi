@@ -9,6 +9,8 @@ public class Task {
 
     private Integer owner;
     private String description;
+    private String responsible;
+    private Date dueDate;
 
     public Integer getOwner() {
         return owner;
@@ -41,7 +43,4 @@ public class Task {
     public void setDueDate(Date dueDate) {
         this.dueDate = dueDate;
     }
-
-    private String responsible;
-    private Date dueDate;
 }
