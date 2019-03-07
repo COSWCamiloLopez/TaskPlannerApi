@@ -33,13 +33,13 @@ public class TaskServicesStub implements TaskServices {
     }
 
     @Override
-    public Task assignedTaskToUser(String taskId, User user) {
-        return taskPersistence.assignedTaskToUser(taskId, user);
+    public void assignedTaskToUser(String taskId, User user) {
+        taskPersistence.assignedTaskToUser(taskId, user);
     }
 
     @Override
-    public void removeTask() {
-
+    public void removeTask(String taskId) {
+        taskPersistence.removeTask(taskId);
     }
 
     @Override

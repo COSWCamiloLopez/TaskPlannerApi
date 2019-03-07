@@ -12,9 +12,10 @@ public interface UserServices {
     List<User> getUsersList();
 
     /**
+     * @param id
      * @return
      */
-    User getUserById(Integer id);
+    User getUserById(String id);
 
     /**
      *
@@ -27,7 +28,7 @@ public interface UserServices {
     void updateUser(User user);
 
     /**
-     * @param user
+     * @param userId
      */
-    void removeUser(User user);
+    void removeUser(String userId);
 }

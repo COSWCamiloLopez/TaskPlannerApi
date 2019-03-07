@@ -4,7 +4,7 @@ import edu.eci.ieti.taskplanner.Model.User;
 import edu.eci.ieti.taskplanner.Persistence.UserPersistence;
 import org.springframework.stereotype.Service;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,8 +13,14 @@ import java.util.List;
 @Service
 public class InMemoryUserPersistence implements UserPersistence {
 
-    private User user1 = new User(12345, "a", "b", "c", "d");
-    private List<User> usersList = Arrays.asList(user1);
+    private User user1 = new User("12345", "a", "b", "c", "d");
+    private User user2 = new User("67890", "e", "f", "g", "g");
+    private List<User> usersList = new ArrayList<>();
+
+    public InMemoryUserPersistence() {
+        usersList.add(user1);
+        usersList.add(user2);
+    }
 
     @Override
     public List<User> getUsersList() {
@@ -22,12 +28,12 @@ public class InMemoryUserPersistence implements UserPersistence {
     }
 
     @Override
-    public User getUserById(Integer id) {
+    public User getUserById(String id) {
 
         User userToReturn = null;
 
         for (User x : usersList) {
-            if (x.getIdentification() == id) {
+            if (x.getIdentification().equals(id)) {
                 userToReturn = x;
             }
         }
@@ -43,8 +49,8 @@ public class InMemoryUserPersistence implements UserPersistence {
     @Override
     public void updateUser(User user) {
         for (User x : usersList) {
-            if (x.getIdentification() == user.getIdentification()) {
-                removeUser(user);
+            if (x.getIdentification().equals(user.getIdentification())) {
+                removeUser(user.getIdentification());
                 usersList.add(user);
             } else {
                 System.out.println("User doesn't found");
@@ -53,9 +59,9 @@ public class InMemoryUserPersistence implements UserPersistence {
     }
 
     @Override
-    public void removeUser(User user) {
-        if (usersList.contains(user)) {
-            usersList.remove(user);
+    public void removeUser(String userId) {
+        if (usersList.contains(getUserById(userId))) {
+            usersList.remove(getUserById(userId));
         } else {
             System.out.println("This user doesn't exists");
         }

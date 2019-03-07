@@ -7,7 +7,7 @@ import java.util.List;
  */
 public class User {
 
-    private Integer identification;
+    private String identification;
     private String fullFirstName;
     private String fullLastName;
     private String email;
@@ -17,7 +17,7 @@ public class User {
     private String password;
     private List<Task> tasks;
 
-    public User(Integer identification, String fullFirstName, String fullLastName, String email, String userName) {
+    public User(String identification, String fullFirstName, String fullLastName, String email, String userName) {
         this.identification = identification;
         this.fullFirstName = fullFirstName;
         this.fullLastName = fullLastName;
@@ -25,21 +25,11 @@ public class User {
         this.userName = userName;
     }
 
-    public List<Task> getTasks() {
-        return tasks;
-    }
+    public List<Task> getTasks() { return tasks; }
 
-    public void setTasks(List<Task> tasks) {
-        this.tasks = tasks;
-    }
+    public void setTasks(List<Task> tasks) { this.tasks = tasks; }
 
-    public Integer getIdentification() {
-        return identification;
-    }
-
-    public void setIdentification(Integer identification) {
-        this.identification = identification;
-    }
+    public String getIdentification() { return identification; }
 
     public String getFullFirstName() {
         return fullFirstName;
@@ -57,9 +47,7 @@ public class User {
         this.fullLastName = fullLastName;
     }
 
-    public String getEmail() {
-        return email;
-    }
+    public String getEmail() { return email; }
 
     public void setEmail(String email) {
         this.email = email;

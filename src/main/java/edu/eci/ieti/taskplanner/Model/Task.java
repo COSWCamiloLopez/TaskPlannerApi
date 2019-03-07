@@ -7,17 +7,26 @@ import java.util.Date;
  */
 public class Task {
 
-    private Integer owner;
+    private String id;
+    private String owner;
     private String description;
     private String responsible;
     private Date dueDate;
 
-    public Integer getOwner() {
-        return owner;
+    public Task(String id, String owner, String description, String responsible, Date dueDate) {
+        this.id = id;
+        this.owner = owner;
+        this.description = description;
+        this.responsible = responsible;
+        this.dueDate = dueDate;
     }
 
-    public void setOwner(Integer owner) {
-        this.owner = owner;
+    public String getId() {
+        return id;
+    }
+
+    public String getOwner() {
+        return owner;
     }
 
     public String getDescription() {

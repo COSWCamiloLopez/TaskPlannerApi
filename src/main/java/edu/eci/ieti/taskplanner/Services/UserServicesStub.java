@@ -22,7 +22,7 @@ public class UserServicesStub implements UserServices {
     }
 
     @Override
-    public User getUserById(Integer id) {
+    public User getUserById(String id) {
         return userPersistence.getUserById(id);
     }
 
@@ -37,7 +37,7 @@ public class UserServicesStub implements UserServices {
     }
 
     @Override
-    public void removeUser(User user) {
-        userPersistence.removeUser(user);
+    public void removeUser(String userId) {
+        userPersistence.removeUser(userId);
     }
 }

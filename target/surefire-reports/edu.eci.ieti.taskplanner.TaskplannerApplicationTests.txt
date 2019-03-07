@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: edu.eci.ieti.taskplanner.TaskplannerApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.096 s <<< FAILURE! - in edu.eci.ieti.taskplanner.TaskplannerApplicationTests
-initializationError(edu.eci.ieti.taskplanner.TaskplannerApplicationTests)  Time elapsed: 0.004 s  <<< ERROR!
-java.lang.Exception: No runnable methods
-

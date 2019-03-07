@@ -28,14 +28,13 @@ public interface TaskPersistence {
     /**
      * @param taskId
      * @param user
-     * @return
      */
-    Task assignedTaskToUser(String taskId, User user);
+    void assignedTaskToUser(String taskId, User user);
 
     /**
      *
      */
-    void removeTask();
+    void removeTask(String taskId);
 
     /**
      * @param task
