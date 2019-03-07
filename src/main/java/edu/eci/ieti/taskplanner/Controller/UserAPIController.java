@@ -52,7 +52,10 @@ public class UserAPIController {
         userServices.updateUser(user);
     }
 
-
+    /**
+     *
+     * @param userId
+     */
     @DeleteMapping("delete/{userId}")
     public void removeUser(@PathVariable("userId") String userId) {
         userServices.removeUser(userId);

@@ -33,7 +33,7 @@ public class InMemoryTaskPersistence implements TaskPersistence {
     public Task getTaskById(String id) {
         Task taskToReturn = null;
         for (Task x : tasksList) {
-            if (x.getId() == id) {
+            if (x.getId().equals(id)) {
                 taskToReturn = x;
             }
         }
@@ -45,7 +45,7 @@ public class InMemoryTaskPersistence implements TaskPersistence {
 
         List<Task> listToReturn = new ArrayList<>();
         for (Task x : tasksList) {
-            if (x.getOwner() == userId) {
+            if (x.getOwner().equals(userId)) {
                 listToReturn.add(x);
             }
         }
@@ -55,7 +55,7 @@ public class InMemoryTaskPersistence implements TaskPersistence {
     @Override
     public void assignedTaskToUser(String taskId, User user) {
         for (Task x : tasksList) {
-            if (x.getId() == taskId) {
+            if (x.getId().equals(taskId)) {
                 x.setResponsible(user.getIdentification());
             }
         }
