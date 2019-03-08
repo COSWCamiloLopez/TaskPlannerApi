@@ -39,6 +39,7 @@ public class UserAPIController {
     /**
      * @param user
      */
+    @CrossOrigin
     @PostMapping("/new")
     public void createUser(@RequestBody User user) {
         userServices.createUser(user);
@@ -53,7 +54,6 @@ public class UserAPIController {
     }
 
     /**
-     *
      * @param userId
      */
     @DeleteMapping("delete/{userId}")

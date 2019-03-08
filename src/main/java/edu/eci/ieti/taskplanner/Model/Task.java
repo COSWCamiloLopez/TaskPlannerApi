@@ -1,5 +1,7 @@
 package edu.eci.ieti.taskplanner.Model;
 
+import org.springframework.data.annotation.Id;
+
 import java.util.Date;
 
 /**
@@ -7,18 +9,34 @@ import java.util.Date;
  */
 public class Task {
 
+    @Id
     private String id;
+
     private String owner;
     private String description;
     private String responsible;
+    private String status;
     private Date dueDate;
 
-    public Task(String id, String owner, String description, String responsible, Date dueDate) {
-        this.id = id;
+    public Task(String owner, String description, String responsible, String status, Date dueDate) {
         this.owner = owner;
         this.description = description;
         this.responsible = responsible;
+        this.status = status;
         this.dueDate = dueDate;
+    }
+
+
+    public void setOwner(String owner) {
+        this.owner = owner;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public String getId() {

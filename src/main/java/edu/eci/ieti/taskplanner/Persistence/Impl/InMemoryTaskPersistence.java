@@ -6,7 +6,6 @@ import edu.eci.ieti.taskplanner.Persistence.TaskPersistence;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -15,13 +14,10 @@ import java.util.List;
 @Service
 public class InMemoryTaskPersistence implements TaskPersistence {
 
-    private Task task1 = new Task("1", "12345", "Hola", "", new Date());
-    private Task task2 = new Task("2", "67890", "Hola", "", new Date());
     private List<Task> tasksList = new ArrayList<>();
 
     public InMemoryTaskPersistence() {
-        tasksList.add(task1);
-        tasksList.add(task2);
+
     }
 
     @Override
@@ -71,7 +67,7 @@ public class InMemoryTaskPersistence implements TaskPersistence {
         if (tasksList.contains(getTaskById(task.getId()))) {
             tasksList.remove(getTaskById(task.getId()));
             tasksList.add(task);
-        } else{
+        } else {
             System.out.println("This task doesn't exists");
         }
     }

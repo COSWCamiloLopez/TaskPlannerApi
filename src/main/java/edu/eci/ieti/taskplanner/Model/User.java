@@ -8,8 +8,7 @@ import java.util.List;
 public class User {
 
     private String identification;
-    private String fullFirstName;
-    private String fullLastName;
+    private String fullName;
     private String email;
     private String userName;
     private Integer phoneNumber;
@@ -17,37 +16,40 @@ public class User {
     private String password;
     private List<Task> tasks;
 
-    public User(String identification, String fullFirstName, String fullLastName, String email, String userName) {
+    public User(String identification, String fullName, String email, String userName, Integer phoneNumber,
+                String occupation, String password) {
         this.identification = identification;
-        this.fullFirstName = fullFirstName;
-        this.fullLastName = fullLastName;
+        this.fullName = fullName;
         this.email = email;
         this.userName = userName;
+        this.phoneNumber = phoneNumber;
+        this.occupation = occupation;
+        this.password = password;
     }
 
-    public List<Task> getTasks() { return tasks; }
-
-    public void setTasks(List<Task> tasks) { this.tasks = tasks; }
-
-    public String getIdentification() { return identification; }
-
-    public String getFullFirstName() {
-        return fullFirstName;
+    public List<Task> getTasks() {
+        return tasks;
     }
 
-    public void setFullFirstName(String fullFirstName) {
-        this.fullFirstName = fullFirstName;
+    public void setTasks(List<Task> tasks) {
+        this.tasks = tasks;
     }
 
-    public String getFullLastName() {
-        return fullLastName;
+    public String getIdentification() {
+        return identification;
     }
 
-    public void setFullLastName(String fullLastName) {
-        this.fullLastName = fullLastName;
+    public String getFullName() {
+        return fullName;
     }
 
-    public String getEmail() { return email; }
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 
     public void setEmail(String email) {
         this.email = email;
