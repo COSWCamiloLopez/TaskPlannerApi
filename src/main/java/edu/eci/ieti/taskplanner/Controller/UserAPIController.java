@@ -11,6 +11,7 @@ import java.util.List;
  *
  */
 @RestController
+@CrossOrigin
 @RequestMapping(value = "/user")
 public class UserAPIController {
 
@@ -18,6 +19,8 @@ public class UserAPIController {
     UserServices userServices;
 
     /**
+     * out
+     *
      * @return
      */
     @GetMapping("/all")
@@ -30,7 +33,7 @@ public class UserAPIController {
      * @param id
      * @return
      */
-    @GetMapping("{userId}")
+    @GetMapping("/userid/{userId}")
     @ResponseBody
     public User getUserById(@PathVariable("userId") String id) {
         return userServices.getUserById(id);
@@ -39,7 +42,6 @@ public class UserAPIController {
     /**
      * @param user
      */
-    @CrossOrigin
     @PostMapping("/new")
     public void createUser(@RequestBody User user) {
         userServices.createUser(user);
@@ -59,6 +61,15 @@ public class UserAPIController {
     @DeleteMapping("delete/{userId}")
     public void removeUser(@PathVariable("userId") String userId) {
         userServices.removeUser(userId);
+    }
+
+    /**
+     * @param userName
+     * @return
+     */
+    @GetMapping("/username/{userName}")
+    public User getUserByUserName(@PathVariable("userName") String userName) {
+        return userServices.getUserByUserName(userName);
     }
 
 }

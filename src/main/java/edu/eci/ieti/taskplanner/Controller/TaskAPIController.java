@@ -12,6 +12,7 @@ import java.util.List;
  *
  */
 @RestController
+@CrossOrigin
 @RequestMapping(value = "/task")
 public class TaskAPIController {
 
@@ -60,5 +61,13 @@ public class TaskAPIController {
     @PutMapping("/update")
     public void updateTask(@RequestBody Task task) {
         taskServices.updateTask(task);
+    }
+
+    /**
+     * @param task
+     */
+    @PostMapping("/newtask")
+    public void createNewTask(@RequestBody Task task) {
+        taskServices.createNewTask(task);
     }
 }

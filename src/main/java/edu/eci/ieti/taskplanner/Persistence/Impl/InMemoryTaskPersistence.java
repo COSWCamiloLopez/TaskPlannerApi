@@ -71,4 +71,9 @@ public class InMemoryTaskPersistence implements TaskPersistence {
             System.out.println("This task doesn't exists");
         }
     }
+
+    @Override
+    public void createNewTask(Task task) {
+        tasksList.add(task);
+    }
 }

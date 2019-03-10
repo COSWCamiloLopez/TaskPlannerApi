@@ -40,4 +40,9 @@ public class UserServicesStub implements UserServices {
     public void removeUser(String userId) {
         userPersistence.removeUser(userId);
     }
+
+    @Override
+    public User getUserByUserName(String userName) {
+        return userPersistence.getUserByUserName(userName);
+    }
 }

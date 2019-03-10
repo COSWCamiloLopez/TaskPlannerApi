@@ -40,4 +40,8 @@ public interface TaskServices {
      */
     void updateTask(Task task);
 
+    /**
+     * @param task
+     */
+    void createNewTask(Task task);
 }

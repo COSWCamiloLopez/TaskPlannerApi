@@ -31,4 +31,10 @@ public interface UserServices {
      * @param userId
      */
     void removeUser(String userId);
+
+    /**
+     * @param userName
+     * @return
+     */
+    User getUserByUserName(String userName);
 }

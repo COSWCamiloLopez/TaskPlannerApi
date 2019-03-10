@@ -63,4 +63,16 @@ public class InMemoryUserPersistence implements UserPersistence {
             System.out.println("This user doesn't exists");
         }
     }
+
+    @Override
+    public User getUserByUserName(String userName) {
+        User userToReturn = null;
+
+        for (User x : usersList) {
+            if (x.getUserName().equals(userName)) {
+                userToReturn = x;
+            }
+        }
+        return userToReturn;
+    }
 }

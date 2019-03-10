@@ -1,5 +1,6 @@
 package edu.eci.ieti.taskplanner.Model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -25,6 +26,7 @@ public class User {
         this.phoneNumber = phoneNumber;
         this.occupation = occupation;
         this.password = password;
+        this.tasks = new ArrayList<>();
     }
 
     public List<Task> getTasks() {

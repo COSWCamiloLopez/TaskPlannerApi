@@ -46,4 +46,9 @@ public class TaskServicesStub implements TaskServices {
     public void updateTask(Task task) {
         taskPersistence.updateTask(task);
     }
+
+    @Override
+    public void createNewTask(Task task) {
+        taskPersistence.createNewTask(task);
+    }
 }
