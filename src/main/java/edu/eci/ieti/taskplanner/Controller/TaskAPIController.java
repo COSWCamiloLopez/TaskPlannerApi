@@ -3,6 +3,7 @@ package edu.eci.ieti.taskplanner.Controller;
 import edu.eci.ieti.taskplanner.Model.Task;
 import edu.eci.ieti.taskplanner.Model.User;
 import edu.eci.ieti.taskplanner.Services.TaskServices;
+import edu.eci.ieti.taskplanner.Services.UserServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,6 +19,7 @@ public class TaskAPIController {
 
     @Autowired
     TaskServices taskServices;
+
 
     /**
      * @return
@@ -36,6 +38,16 @@ public class TaskAPIController {
     @ResponseBody
     public Task getTaskById(@PathVariable("taskId") String taskId) {
         return taskServices.getTaskById(taskId);
+    }
+
+    /**
+     * @param userId
+     * @return
+     */
+    @GetMapping("/user/{userId}")
+    @ResponseBody
+    public List<Task> getTasksByUserId(@PathVariable("userId") String userId) {
+        return taskServices.getTasksByUserId(userId);
     }
 
     /**

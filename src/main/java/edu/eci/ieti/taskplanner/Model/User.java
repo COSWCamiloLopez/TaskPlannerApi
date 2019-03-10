@@ -12,12 +12,11 @@ public class User {
     private String fullName;
     private String email;
     private String userName;
-    private Integer phoneNumber;
+    private String phoneNumber;
     private String occupation;
     private String password;
-    private List<Task> tasks;
 
-    public User(String identification, String fullName, String email, String userName, Integer phoneNumber,
+    public User(String identification, String fullName, String email, String userName, String phoneNumber,
                 String occupation, String password) {
         this.identification = identification;
         this.fullName = fullName;
@@ -26,15 +25,6 @@ public class User {
         this.phoneNumber = phoneNumber;
         this.occupation = occupation;
         this.password = password;
-        this.tasks = new ArrayList<>();
-    }
-
-    public List<Task> getTasks() {
-        return tasks;
-    }
-
-    public void setTasks(List<Task> tasks) {
-        this.tasks = tasks;
     }
 
     public String getIdentification() {
@@ -65,11 +55,11 @@ public class User {
         this.userName = userName;
     }
 
-    public Integer getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(Integer phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
